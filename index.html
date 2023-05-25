@@ -1,0 +1,22 @@
+<!DOCTYPE.html>
+	<head>
+		<title>Atividade 26 - Trabalho</title>
+		<script src="javascript.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<div class="quadrado">
+			<h1>Jhont Adivinhações </h1>
+			<p>Foi gerado um número aleatório entre 0 a 100. <br/>Tente adivinhar qual número é esse!<br/><br/>Regras:<br/>- Apenas numeros de 0 a 100.<br/>- A cada tentativa errada você perde 1 ponto, no total são 100 pontos.</p>
+			<label for="numeroDigitado">Digite um número:</label>
+			<input type="number" id="numeroDigitado" min="0" max="100">
+			<br><br>
+			<button onclick="verificarAcerto()" class="button">Verificar</button>
+			<label id="resultado" class="resultado">...</label>
+			<button onclick="novoJogo()" class="button">Novo Jogo</button>
+		</div>
+	</body>
+</html>
+
+
+
